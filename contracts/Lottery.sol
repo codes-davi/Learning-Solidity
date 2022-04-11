@@ -3,7 +3,7 @@ pragma solidity ^0.8.0;
 
 contract Lottery {
     // default privacy set as private when not declared
-    address immutable OWNER;
+    address public immutable OWNER;
     address[] public players;
 
     uint256 count;
