@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.0;
 
-contract Lottery {
+contract SweepStake {
     // default privacy set as private when not declared
     address public immutable OWNER;
     address[] public players;
